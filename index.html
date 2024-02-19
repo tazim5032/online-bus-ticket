@@ -211,14 +211,14 @@
         <section class="bg-white mx-[3%] lg:mx-[6%] mt-24 font-inter rounded-xl px-2">
             <!--selection-->
             <div class="lg:flex ">
-                <div class="w-[50%]">
+                <div class="lg:w-[50%]">
                     <div class="my-4 ml-2">
                         <h1 class="font-bold">Select Your Seat</h1>
                     </div>
                     <div class="my-4 mx-2">
                         <hr>
                     </div>
-                    <div class="my-4 flex justify-between mx-2">
+                    <div class="my-4 flex justify-around lg:justify-between lg:mx-2">
                         <div>
                             <img src="images/seat-gray.png" alt="">
                             <p>Available</p>
@@ -231,14 +231,14 @@
                     <div class="my-4 mx-2">
                         <hr>
                     </div>
-                    <div class="my-4 flex flex-row-reverse mx-2">
+                    <div class="my-4 flex flex-row-reverse lg:mx-2">
                         <img class="bg-[#0307121A] w-[80px] h-[60px] rounded-xl" src="images/wheel.svg" alt="">
                     </div>
-                    <div class="a flex flex-col lg:flex-row lg:justify-between  mb-4 mx-2">
-                        <div class="flex gap-2">
-                            <p class=" btn bg-white text-[#03071280]  font-extrabold rounded-none w-[60px]">A</p>
+                    <div class="a flex flex-col lg:flex-row lg:justify-between mb-4 mx-2">
+                        <div class="flex gap-3 lg:gap-2">
+                            <p class=" btn bg-white text-[#03071280]  font-extrabold rounded-none w-[60px] mb-1">A</p>
                            
-                            <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px]">
+                            <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px] mb-1">
                                 A1
                             </a>
                             <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px]">
@@ -246,7 +246,8 @@
                             </a>
     
                         </div>
-                        <div class="flex gap-2">
+                        <div class="flex gap-3 lg:gap-2">
+                            <p class=" btn bg-white text-[#03071280]  font-extrabold rounded-none w-[60px] lg:hidden">A</p>
                             <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px]">
                                 A3
                             </a>
@@ -256,17 +257,18 @@
                         </div>
                     </div>
                     <div class="b flex flex-col lg:flex-row lg:justify-between mb-4 mx-2">
-                        <div class="flex gap-2">
-                            <p class=" btn bg-white text-[#03071280]  font-extrabold rounded-none w-[60px]">B</p>
-                            <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px]">
+                        <div class="flex gap-3 lg:gap-2">
+                            <p class=" btn bg-white text-[#03071280]  font-extrabold rounded-none w-[60px] mb-1">B</p>
+                            <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px] mb-1">
                                 B1
                             </a>
-                            <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px]">
+                            <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px] mb-1">
                                 B2
                             </a>
     
                         </div>
-                        <div class="flex gap-2">
+                        <div class="flex gap-3 lg:gap-2">
+                            <p class=" btn bg-white text-[#03071280]  font-extrabold rounded-none w-[60px] lg:hidden">B</p>
                             <a class="seat btn  text-[#03071280]  font-extrabold rounded-xl w-[80px]">
                                 B3
                             </a>
@@ -278,7 +280,7 @@
 
                 </div>
                 <!--ticket cost-->
-                <div class="w-[50%] ml-12">
+                <div class="lg:w-[50%] lg:ml-12 ">
                     <div>
                         <div class="my-4">
                             <h1 class="font-bold">Select Your Seat</h1>
@@ -290,7 +292,7 @@
 
                     <!--total cost section-->
                     <div class="bg-[#F7F8F8] rounded-xl">
-                        <div class="flex justify-between my-4 px-2 pt-2">
+                        <div class="flex justify-between my-4 lg:px-2 pt-2">
                             <p class="font-bold">Seat <span id="total-selected-seat" class="bg-[#1DD100] px-2 rounded-md text-white">0</span> </p>
                             <p class="font-bold">Class</p>
                             <p class="font-bold">Price</p>
