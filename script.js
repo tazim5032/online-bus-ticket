@@ -80,7 +80,7 @@ function applyCoupon(){
         couponSection.classList.add('hidden');
     }
     else{
-        //no change
+        alert('Please Enter a Valid Coupon!');
     }
 
     
@@ -96,13 +96,17 @@ function success(){
 }
 function exitCongo(){
 
-    const header = document.getElementById('header');
-    const main = document.getElementById('main');
-    const congo = document.getElementById('congo');
+    //const header = document.getElementById('header');
+    //const main = document.getElementById('main');
+    //const congo = document.getElementById('congo');
 
-    header.classList.remove('hidden');
-    main.classList.remove('hidden');
-    congo.classList.add('hidden');
+    //header.classList.remove('hidden');
+    //main.classList.remove('hidden');
+    //congo.classList.add('hidden');
+
+    document.getElementById('congo').addEventListener('click', function(e){
+        location.reload();
+    });
 }
 function setInnerText(id, value){
     document.getElementById(id).innerText = value;
